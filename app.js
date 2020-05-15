@@ -27,6 +27,6 @@ if(typeof receiverMail[0] !== 'undefined'){
 	});
 } else {
 	// If receiverMail not given, terminaye program
-	console.log(`Parameter "receiverMail" not provided`);
+	console.log(`Parameter "receiverMail" not provided: try again with 'node app <receiverMail>'`);
 	process.exit();
 }
